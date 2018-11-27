@@ -7,7 +7,8 @@
 
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
-  color: #333;
+  color: #333333;
+  font-family: Avenir Next, "PingFangSC-Light" !important;
   /*background: #fff;*/ /* 复制的时候会带上这个样式, 为了不造成影响去掉这个样式 */
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -16,8 +17,8 @@ html {
 
 /* 内外边距通常让各个浏览器样式的表现位置不同 */
 body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 0 15px 0 15px;
 }
 
 /* 要注意表单元素并不继承父级 font 的问题 */
@@ -160,7 +161,7 @@ figcaption {
 
 strong, b {
   font-weight: bold;
-  color: #000;
+  color: #EF3402;
 }
 
 /* 可拖动文件添加拖动手势 */
@@ -216,7 +217,9 @@ strong, b {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
-  color: #000;
+  font-style: bold !important;
+  font-weight: bold;
+  color: #000000;
   line-height: 1.35;
 }
 
@@ -229,23 +232,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .typo h1, .typo-h1 {
-  font-size: 2em;
+  font-size: 22px;
 }
 
 .typo h2, .typo-h2 {
-  font-size: 1.8em;
+  font-size: 20px;
 }
 
 .typo h3, .typo-h3 {
-  font-size: 1.6em;
+  font-size: 18px;
 }
 
 .typo h4, .typo-h4 {
-  font-size: 1.4em;
+  font-size: 17px;
 }
 
 .typo h5, .typo h6, .typo-h5, .typo-h6 {
-  font-size: 1.2em;
+  font-size: 16px;
 }
 
 /* 在文章中，应该还原 ul 和 ol 的样式 */
