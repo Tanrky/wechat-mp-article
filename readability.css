@@ -160,7 +160,7 @@ figcaption {
 }
 
 strong, b {
-  font-weight: bold;
+  font-weight: normal;
   color: #EF3402;
 }
 
@@ -218,7 +218,7 @@ strong, b {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   font-style: bold !important;
-  font-weight: bold;
+  font-weight: normal;
   color: #000000;
   line-height: 1.35;
 }
